@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.lab03.Main4Activity">
+
+    <Button
+        android:id="@+id/btnGetNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"
+        android:text="Lấy số" />
+
+    <TextView
+        android:id="@+id/txtSoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Số A : " />
+
+    <TextView
+        android:id="@+id/txtSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Số B : " />
+
+    <TextView
+        android:id="@+id/txtSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Tổng : " />
+
+</LinearLayout>

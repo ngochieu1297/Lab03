@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.lab03.MainActivity">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo Implicit Intent"
+        android:textSize="25sp"
+        android:textColor="#FF0000"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Gọi điện"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnOpenWeb"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Mở web TLU" />
+
+    <Button
+        android:id="@+id/btnSendMsg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Gửi SMS" />
+
+    <Button
+        android:id="@+id/btnOpenMap"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Mở maps" />
+</LinearLayout>
